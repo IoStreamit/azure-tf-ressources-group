@@ -1,6 +1,6 @@
 output "id" {
   description = "resource group id"
-  value       = azurerm_resource_group.iostream.id
+  value       = azurerm_resource_group.rsg.id
 }
 
 output "name" {
